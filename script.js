@@ -7,7 +7,7 @@ document.getElementById('submitButton').addEventListener('click', function() {
       messageElement.style.color = 'green';
     } else {
       messageElement.textContent = 'Por favor, digite seu nome!';
-      messageElement.style.color = 'red';
+      messageElement.style.color = 'yellow';
     }
   });
 
